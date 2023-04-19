@@ -1,0 +1,45 @@
+*{
+	font-family: 'Concert One', cursive;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+.q-container{
+	background-color: #78A6C8;
+	border-radius: 10px;
+	width: 1000px;
+	height: 600px;
+}
+.q-header{
+	padding: 64px;
+}
+h2{
+	padding: 16px;
+	text-align: center;
+	margin: 0;
+	font-size: 80px;
+}
+button{
+	background-color: #f9004d;
+	color: whitesmoke;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 26px 50px ;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+
+}
